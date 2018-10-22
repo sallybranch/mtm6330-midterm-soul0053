@@ -1,5 +1,7 @@
 
-@font-face { font-family: Walkway Bold; src: url('fonts/Walkway\ Bold.ttf'); } 
+@font-face { font-family: Walkway Bold; src: url('fonts/Walkway\ Bold.ttf'); }
+@font-face { font-family: Futura; src: url('fonts/futur.ttf'); }
+@font-face {font-family: Futura Bold; src: url('fonts/Futura\ Bold\ font.ttf')}
 
 .logo img{
     display: block;
@@ -63,4 +65,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', end
 .frontpageparagraph{
     font-family: 'Walkway Bold';
     font-size: 200%;
+}
+
+/* adoption page */
+
+.adoptionfont{
+    font-family: 'Futura Bold';
+    display: block;
+    text-align: center;
+}
+
+.adoption{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
