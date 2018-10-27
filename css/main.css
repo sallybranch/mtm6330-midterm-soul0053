@@ -1,0 +1,165 @@
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto; }
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 25px; }
+
+.menu1, .menu2, .menu3, .menu4 {
+  padding: 10px; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  color: hotpink; }
+
+.slideshow {
+  width: 400px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: auto; }
+  .slideshow img {
+    position: absolute;
+    animation: slideshow 15s infinite;
+    width: 100%;
+    opacity: 0; }
+
+@keyframes slideshow {
+  25% {
+    opacity: 1; }
+  40% {
+    opacity: 0; } }
+
+.slideshow img:nth-child(1) {
+  animation-delay: -5s; }
+
+.slideshow img:nth-child(2) {
+  animation-delay: 0s; }
+
+.slideshow img:nth-child(3) {
+  animation-delay: 5s; }
+
+.banner {
+  width: 100%;
+  height: 266px;
+  margin: auto;
+  background: #fb83fa;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #fb83fa 0%, #e93cec 47%, #fb83fa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #fb83fa 0%, #e93cec 47%, #fb83fa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #fb83fa 0%, #e93cec 47%, #fb83fa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', endColorstr='#fb83fa',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.frontpageparagraph {
+  font-family: 'WalkwayBold';
+  font-size: 200%; }
+
+/* adoption page */
+.adoptionfont {
+  display: block;
+  text-align: center;
+  font-size: 1.875em;
+  margin: 0; }
+
+.adoptcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .adoptcontainer img {
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid pink; }
+
+/* contact form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #e05ae0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #990b8d; }
+
+.container {
+  font-family: 'Walkway Bold';
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px; }
+
+/* rabbit care */
+.intro {
+  font-size: 1.5em;
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 40px;
+  width: 500px;
+  border: 3px solid pink; }
+
+.option1 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2em;
+  text-decoration: underline; }
+
+.option2 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2em;
+  text-decoration: underline; }
+
+.diet img {
+  width: 100%; }
+
+.dietcentered {
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-top: 100px; }
+
+.dietWords {
+  width: 50%;
+  margin: 0 auto; }
+
+.dietHeader {
+  text-align: center;
+  width: 100%;
+  color: hotpink; }
+
+/* Housing */
+.housingWords {
+  width: 50%;
+  margin: 0 auto; }
+
+.housingHeader {
+  color: green;
+  text-align: center; }
